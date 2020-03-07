@@ -1,0 +1,4 @@
+/app/obj/Debug/netcoreapp2.0/mvcDocker.csprojAssemblyReference.cache
+/app/obj/Debug/netcoreapp2.0/mvcDocker.csproj.CoreCompileInputs.cache
+/app/obj/Debug/netcoreapp2.0/mvcDocker.AssemblyInfoInputs.cache
+/app/obj/Debug/netcoreapp2.0/mvcDocker.AssemblyInfo.cs

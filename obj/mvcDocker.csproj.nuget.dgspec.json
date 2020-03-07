@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Odumosu/Desktop/mvcDocker/mvcDocker.csproj": {}
+  },
+  "projects": {
+    "/Users/Odumosu/Desktop/mvcDocker/mvcDocker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Odumosu/Desktop/mvcDocker/mvcDocker.csproj",
+        "projectName": "mvcDocker",
+        "projectPath": "/Users/Odumosu/Desktop/mvcDocker/mvcDocker.csproj",
+        "packagesPath": "/Users/Odumosu/.nuget/packages/",
+        "outputPath": "/Users/Odumosu/Desktop/mvcDocker/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/Odumosu/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.DotNet.Watcher.Tools": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
