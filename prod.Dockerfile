@@ -19,6 +19,7 @@ COPY ["mvcDocker.csproj", "./"]
 RUN dotnet restore "./mvcDocker.csproj"
 # copy the rest of project files from Host current directory into the docker image that we are building
 COPY . .
+# change working directory to /src/.
 WORKDIR "/src/."
 # build the copied project in relese mode, to /app/build
 RUN dotnet build "mvcDocker.csproj" -c Release -o /app/build
